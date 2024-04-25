@@ -1,5 +1,7 @@
 /src/install/my_bot/share/my_bot/config/empty.yaml
+/src/install/my_bot/share/my_bot/description/inertial_macros.xacro
 /src/install/my_bot/share/my_bot/description/robot.urdf.xacro
+/src/install/my_bot/share/my_bot/description/robot_core.urdf.xacro
 /src/install/my_bot/share/my_bot/launch/rsp.launch.py
 /src/install/my_bot/share/my_bot/worlds/empty.world
 /src/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot

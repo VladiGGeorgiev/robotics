@@ -7,6 +7,8 @@ RUN apt-get update \
     nano \
     ros-humble-xacro \
     ros-humble-joint-state-publisher-gui \
+    ros-humble-launch-xml \
+    ros-humble-launch-yaml \
     && rm -rf /var/lib/apt/lists/*
 
 

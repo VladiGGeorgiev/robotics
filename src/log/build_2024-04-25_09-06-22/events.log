@@ -1,0 +1,36 @@
+[0.000000] (-) TimerEvent: {}
+[0.001031] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.002122] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.018631] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.020157] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.021310] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/src/build/my_bot', '--', '-j16', '-l16'], 'cwd': '/src/build/my_bot', 'env': OrderedDict([('HOSTNAME', 'vladi-pc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/src/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/src/install/my_bot:/opt/ros/humble'), ('PWD', '/src/build/my_bot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/src/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.094548] (my_bot) CommandEnded: {'returncode': 0}
+[0.099987] (-) TimerEvent: {}
+[0.134689] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.149445] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/src/build/my_bot'], 'cwd': '/src/build/my_bot', 'env': OrderedDict([('HOSTNAME', 'vladi-pc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/src/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/src/install/my_bot:/opt/ros/humble'), ('PWD', '/src/build/my_bot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/src/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.163607] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.164482] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.165177] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.165613] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.165841] (my_bot) StdoutLine: {'line': b'-- Symlinking: /src/install/my_bot/share/my_bot/description/robot_core.urdf.xacro\n'}
+[0.180832] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.181235] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.181444] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.181615] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.181785] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.182020] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.182257] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.182464] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.182644] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.182850] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.183058] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.183266] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.183413] (my_bot) StdoutLine: {'line': b'-- Symlinking: /src/install/my_bot/share/my_bot/package.dsv\n'}
+[0.197766] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[0.198137] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[0.198308] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[0.198422] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /src/install/my_bot/share/my_bot/package.xml\n'}
+[0.200076] (-) TimerEvent: {}
+[0.201599] (my_bot) CommandEnded: {'returncode': 0}
+[0.273005] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[0.274146] (-) EventReactorShutdown: {}
